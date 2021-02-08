@@ -1,0 +1,3 @@
+include ':randomList'
+include ':app'
+rootProject.name = "RandomList"
