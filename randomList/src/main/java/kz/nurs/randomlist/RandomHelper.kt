@@ -1,5 +1,6 @@
 package kz.nurs.randomlist
 
+//import kz.nurs.randomlist.model.Card
 import kz.nurs.randomlist.model.Event
 import kz.nurs.randomlist.model.Move
 import kz.nurs.randomlist.model.Notice

@@ -20,13 +20,13 @@ class RandomElements{
     }
 
     private fun generateType(): Int {
-        return kotlin.random.Random.nextInt(0, baseTypeList.size+1)
+        return kotlin.random.Random.nextInt(0, baseTypeList.size)
     }
 
     private fun isNotExist(newType: Element): Boolean {
         var exist = 0
         for (i in 0 until baseTypeList.size){
-            if(i.javaClass.simpleName == baseTypeList[0].javaClass.simpleName){
+            if(newType.javaClass.simpleName == baseTypeList[i].javaClass.simpleName){
                 exist++
             }
         }

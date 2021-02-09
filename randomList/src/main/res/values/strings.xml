@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date">date</string>
+    <string name="gate">gate</string>
+    <string name="details">details</string>
+    <string name="type">type</string>
+    <string name="estimate_time">estimateTime</string>
+    <string name="to_place">toplace</string>
+    <string name="from_place">from_place</string>
+    <string name="name">name</string>
+    <string name="start_time">start_time</string>
+    <string name="end_time">end_time</string>
+</resources>
